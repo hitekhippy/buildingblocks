@@ -3,7 +3,7 @@ provider "google" {
   project     = "meetup-site"
   region      = "us-central1"
   zone        = "us-central1-a"
-  credentials = "${file("creds.json")}"
+  credentials = "${file("/Users/mike/creds.json")}"
 }
 
 // Create a new instance
