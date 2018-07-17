@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title>SEMO Tech Group</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+  .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+  .fa-laptop,.fa-calendar-o,.fa-slack,.fa-meetup {font-size:250px}
+</style>
+
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#top" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right">Contact</a>
+        <a href="#dates" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right">Dates</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right">About</a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
+        <a href="#dates" class="w3-bar-item w3-button w3-padding-large">Dates</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-green w3-center" style="padding:128px 16px">
+      <h1 class="w3-margin w3-jumbo">SEMO General Technology Group</h1>
+    </header>
+
+    <!-- About -->
+    <div class="w3-row-padding w3-padding-64 w3-container" id="about">
+      <div class="w3-content">
+        <div class="w3-twothird">
+          <h1>Welcome to our group!</h1>
+          <h5 class="w3-padding-32">What we're about</h5>
+
+          <p class="w3-text-grey">This group is for anyone interested in current technologies, things like cloud computing, 
+                                  agile software development, infrastructure as code, anything that gets your techie gears 
+                                  churning. We'd love to hear what you'd like to present/learn about in our group. We'd 
+                                  like to keep the group open and inviting for people of all skill levels. This group is 
+                                  intended to be group of "generalist" as the community in the area tends to be quite small, 
+                                  we'd like to meet like minds and eventually split into more specialized groups as needed.
+          </p>
+        </div>
+
+        <div class="w3-third w3-center">
+            <i class="fa fa-laptop w3-padding-64 w3-text-green"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dates -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="dates">
+      <div class="w3-content">
+        <div class="w3-third w3-center">
+          <i class="fa fa-calendar-o w3-padding-64 w3-text-green w3-margin-right"></i>
+        </div>
+
+        <div class="w3-twothird">
+          <h1>Meetup Information</h1>
+
+          <div class="w3-responsive w3-card-4">
+              <table class="w3-table-all">
+                <thead>
+                  <tr class="w3-light-grey">
+                    <th>Date</th>
+                    <th>Topic</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tr class="w3-hover-green">
+                  <td>June 5th</td>
+                  <td>Git 101</td>
+                  <td>6pm-8pm</td>
+                  <td>Cape Girardeau Public Library</td>
+                </tr>
+                <tr class="w3-hover-green">
+                  <td>July 19th</td>
+                  <td>Building Blocks of the Web</td>
+                  <td>6pm-8pm</td>
+                  <td>Cape Girardeau Public Library</td>
+                </tr>
+                <tr class="w3-hover-green">
+                  <td>TBA</td>
+                  <td>TBA</td>
+                  <td>TBA</td>
+                  <td>TBA</td>
+                </tr>
+                <tr class="w3-hover-green">
+                  <td>TBA</td>
+                  <td>TBA</td>
+                  <td>TBA</td>
+                  <td>TBA</td>
+                </tr>
+                <tr class="w3-hover-green">
+                  <td>TBA</td>
+                  <td>TBA</td>
+                  <td>TBA</td>
+                  <td>TBA</td>
+                </tr>
+                <tr class="w3-hover-green">
+                  <td>TBA</td>
+                  <td>TBA</td>
+                  <td>TBA</td>
+                  <td>TBA</td>
+                </tr>
+              </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-row-padding w3-padding-64 w3-container" id="contact">
+      <div class="w3-content w3-padding-16">
+        <div class="w3-twothird">
+          <h3 class="w3-center">CONTACT</h3>
+          <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>      
+          <form class="w3-container" action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+            <p>
+              <button class="w3-button w3-hover-green" type="submit">
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+              </button>
+            </p>
+          </form>
+        </div>
+        <div class="w3-third">
+          <img width="100%" src="https://maps.googleapis.com/maps/api/staticmap?center=711+Clark+St,+Cape+Girardeau,+MO+63701&zoom=17&scale=1&size=400x500&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x4caf50%7Clabel:%7C711+Clark+St,+Cape+Girardeau,+MO+63701" alt="Google Map of 711 Clark St, Cape Girardeau, MO 63701">
+        </div>
+      </div>
+    </div>
+
+    <!-- Links Section-->
+    <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+      <div class="w3-container w3-half">
+        <a href="https://goo.gl/6vZweL">
+          <i class="fa fa-slack w3-hover-text-green"></i>
+        </a>
+        <h1 class="w3-margin w3-xlarge">Join us on Slack</h1>
+      </div>
+      <div class="w3-container w3-half">
+        <a href="https://www.meetup.com/SEMO-general-technology-group/">
+          <i class="fa fa-meetup w3-hover-text-green"></i>
+        </a>
+        <h1 class="w3-margin w3-xlarge">Official Meetup Page</h1>
+      </div>
+    </div>
+
+    <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else { 
+            x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+
+  </body>
+</html>
