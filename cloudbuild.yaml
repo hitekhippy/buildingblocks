@@ -1,6 +1,6 @@
-
+# Deliverable for this task is a PR to c-natera-gcp which adds working Cloud Build integration (to prove it works prior to PR merge, don't limit trigger on "on push master" like we did with the GA integration).
 steps:
   # TEST
   - id: TEST
-    name: "gcr.io/cloud-builders/docker"
-    args: ["bash", "./curl.bash"]
+    name: "ubuntu"
+    args: ["bash", "curl -vILk google.com"]
