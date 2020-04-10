@@ -1,0 +1,5 @@
+steps:
+  # TEST
+  - id: TEST
+    name: "gcr.io/$PROJECT_ID/ubuntu-curl"
+    args: ["bash", "./curl.bash"]
