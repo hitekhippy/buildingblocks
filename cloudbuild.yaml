@@ -1,6 +1,8 @@
 # Deliverable for this task is a PR to c-natera-gcp which adds working Cloud Build integration (to prove it works prior to PR merge, don't limit trigger on "on push master" like we did with the GA integration).
+
 steps:
-  # TEST
-  - id: TEST
-    name: "ubuntu"
-    args: ["echo -n", "HELLO TESTING WORLD"]
+  - name: "ubuntu"
+    args: ["sleep", "600"]
+    timeout: 10
+  - name: "ubuntu"
+    args: ["echo", "hello world, after 10"]
