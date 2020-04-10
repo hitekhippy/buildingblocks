@@ -3,4 +3,4 @@ steps:
   # TEST
   - id: TEST
     name: "ubuntu"
-    args: [echo -n "HELLO TESTING WORLD"]
+    args: ["echo -n", "HELLO TESTING WORLD"]
