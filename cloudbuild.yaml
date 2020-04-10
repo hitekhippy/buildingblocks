@@ -3,4 +3,4 @@ steps:
   # TEST
   - id: TEST
     name: "ubuntu"
-    args: ["bash", "curl -vILk google.com"]
+    args: [echo -n "HELLO TESTING WORLD"]
