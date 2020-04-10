@@ -1,5 +1,6 @@
+
 steps:
   # TEST
   - id: TEST
-    name: "gcr.io/$PROJECT_ID/ubuntu-curl"
+    name: "gcr.io/cloud-builders/docker"
     args: ["bash", "./curl.bash"]
